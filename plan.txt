@@ -1,0 +1,13 @@
+Prompt them to search for information on a person
+
+Ask them the first question:
+If it is right give them the first section of the flag (encoded)
+
+Ask them the second question:
+If it is right give them the second section of the flag (encoded)
+
+Ask them the third question:
+If it is right give them the third section of the flag (encoded)
+
+Ask them what the flag is, if it is right, GIVE THEM A COOL ANIMATION
+
