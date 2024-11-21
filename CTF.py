@@ -26,7 +26,7 @@ def main():
     while loop1 is False:
         delay_print("Try Again!")
         loop1 = ask(question1, answer1)
-    delay_print("Congradulations! Here is the first encoded section: CQWW_")
+    delay_print("Congradulations! Here is the first encoded section: jbn101{MOLE")
     time.sleep(0.2)
 
     question2 = "How many kids does he have?"
@@ -35,7 +35,7 @@ def main():
     while loop2 is False:
         delay_print("Try Again!")
         loop2 = ask(question2, answer2)
-    delay_print("Congradulations! Here is the second encoded section: MAMIK_")
+    delay_print("Congradulations! Here is the second encoded section: _KSUMD_")
     time.sleep(0.2)
 
     question3 = "What is Bill Gates favorite Dessert?"
@@ -44,7 +44,7 @@ def main():
     while loop3 is False:
         delay_print("Try Again!")
         loop3 = ask(question3, answer3)
-    delay_print("Congradulations! Here is the third encoded section: MWWWRLEPDMTWWRLE")
+    delay_print("Congradulations! Here is the third encoded section: WULEPDMTWWRLEPDM}")
     time.sleep(0.2)
 
     question4 = "What's his nickname?"
@@ -53,11 +53,11 @@ def main():
     while loop4 is False:
         delay_print("Try Again!")
         loop4 = ask(question4, answer4)
-    delay_print("Congradulations! Here is the cipher key: BILLGATES")
+    delay_print("Congradulations! Here is the cipher key: BILLGATES (hint: the cipher method was created by two different people independently who did not realize someone else had also come up with it. )")
     time.sleep(0.2)
     
     question5 = "Enter the flag here"
-    answer5 = "BILL_GATES_LOLLLLLLLLLLLLLL"
+    answer5 = "itc101{BILL_GATES_LOLLLLLLLLLLLLLL}"
     loop5 = ask(question5, answer5)
     while loop5 is False:
         delay_print("Try Again!")

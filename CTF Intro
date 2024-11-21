@@ -20,3 +20,4 @@ Changes (future):
 - Use regex
 - Tell them the cipher key
 - Use proper CTF Format
+- hide the flag
