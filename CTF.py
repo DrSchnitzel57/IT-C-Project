@@ -1,7 +1,5 @@
 import time
 import sys
-import numpy as np
-import cv2 as cv
 
 def delay_print(string):
     for char in string:
