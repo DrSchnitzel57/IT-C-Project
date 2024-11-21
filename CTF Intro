@@ -1,0 +1,16 @@
+Title
+Bill Gates OSINT
+Description (including what the goal is, links to any websites or resources they may want to use)
+Your goal is to complete OSINT on Bill Gates and find a way to decrypt the resulting flag. 
+
+Tags (keywords that related to it)
+OSINT
+Cryptography
+Bill Gates
+
+Category (OSINT, Web, Crypto, Analysis (Log, Networks, etc.), Steg, Rev/Pwn, Other)
+OSINT Crypto
+
+Hints: At least two hints for those who are stuck.
+Use Google
+Look up different cypher methods that need a key
