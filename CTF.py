@@ -1,6 +1,7 @@
 import time
 import sys
-import vlc
+import numpy as np
+import cv2 as cv
 
 def delay_print(string):
     for char in string:
@@ -63,9 +64,25 @@ def main():
         loop5 = ask(question5, answer5)
     delay_print("Correct!!! Here is your reward:")
     time.sleep(0.2)
-    vlc.MediaPlayer("reward.mp4").play()
+    cap = cv.VideoCapture('reward.mp4')
+    
+    while cap.isOpened():
+        ret, frame = cap.read()
+    
+        # if frame is read correctly ret is True
+        if not ret:
+            print("Can't receive frame (stream end?). Exiting ...")
+            break
+        gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
+    
+        cv.imshow('frame', gray)
+        if cv.waitKey(1) == ord('q'):
+            break
+    
+    cap.release()
+    cv.destroyAllWindows()
  
 
 if __name__ == "__main__":
-    vlc.MediaPlayer("reward.mp4").play()
+
     main()
