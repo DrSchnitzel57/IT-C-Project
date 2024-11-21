@@ -1,6 +1,6 @@
 import time
 import sys
-import cv2
+import vlc
 
 def delay_print(string):
     for char in string:
@@ -63,7 +63,9 @@ def main():
         loop5 = ask(question5, answer5)
     delay_print("Correct!!! Here is your reward:")
     time.sleep(0.2)
+    vlc.MediaPlayer("reward.mp4").play()
  
 
 if __name__ == "__main__":
+    vlc.MediaPlayer("reward.mp4").play()
     main()
