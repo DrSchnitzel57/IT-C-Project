@@ -14,3 +14,9 @@ OSINT Crypto
 Hints: At least two hints for those who are stuck.
 Use Google
 Look up different cypher methods that need a key
+
+
+Changes (future):
+- Use regex
+- Tell them the cipher key
+- Use proper CTF Format
