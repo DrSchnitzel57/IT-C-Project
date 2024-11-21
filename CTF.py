@@ -64,25 +64,8 @@ def main():
         loop5 = ask(question5, answer5)
     delay_print("Correct!!! Here is your reward:")
     time.sleep(0.2)
-    cap = cv.VideoCapture('reward.mp4')
-    
-    while cap.isOpened():
-        ret, frame = cap.read()
-    
-        # if frame is read correctly ret is True
-        if not ret:
-            print("Can't receive frame (stream end?). Exiting ...")
-            break
-        gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
-    
-        cv.imshow('frame', gray)
-        if cv.waitKey(1) == ord('q'):
-            break
-    
-    cap.release()
-    cv.destroyAllWindows()
+    delay_print("https://youtu.be/c6DbXIoSxaM")
  
 
 if __name__ == "__main__":
-
     main()
