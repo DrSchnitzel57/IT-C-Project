@@ -52,7 +52,7 @@ def main():
     while loop4 is False:
         delay_print("Try Again!")
         loop4 = ask(question4, answer4)
-    delay_print("Congradulations! Here is the cipher key: BILLGATES (hint: the cipher method was created by two different people independently who did not realize someone else had also come up with it. )")
+    delay_print("Congradulations! Here is the cipher key: BILLGATES (hint: the encryption method was falsely attributed to someone who was not the actual first creator of it. )")
     time.sleep(0.2)
     
     question5 = "Enter the flag here"
